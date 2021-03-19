@@ -1,5 +1,4 @@
-
-1. 데이터 베이스 설계
+데이터 베이스 설계
 
 DB 설계 근거
 
@@ -23,7 +22,8 @@ ERD
 
 ![](2021-03-19-08-17-36.png)
 
-2. Apis
+Apis
+
    createHighlight: 하이라이트 저장
    updateHighlight: 하이라이트 수정
    readPageInHighlights: 페이지 내 하이라이트 정보 가져오기
