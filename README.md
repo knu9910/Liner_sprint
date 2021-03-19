@@ -32,9 +32,10 @@
 	<li>updateTheme: 유저의 하이라이트 테마 변경</li>
 	</ul>
 
-### 모든 api는 Authorization 헤더안에 access_token을 넣어야 합니다.</font></br>
-###   ex) .set(Authorization, access_token)</br>
-### user의 기본 themeId 는 1로 설정되어 있습니다.
+### 확인해야 할 사항
+ 모든 api는 Authorization 헤더안에 access_token을 넣어야 합니다.</br>
+ ex) .set(Authorization, access_token)</br>
+ user의 기본 themeId 는 1로 설정되어 있습니다.
 
 <h1>helpFunction</h1>
   authOrHandling: 반복되는 에러 핸들링, 토큰인증(블랙리스트, access_token확인등)을 위해 사용</br>
@@ -44,4 +45,5 @@
   - signup, signin, signout </br>
   - refresh : access_token이 만료 되었을때 refhresh_token을 통해 재발급하기 위해 사용 </br>
 
-### refresh api는 Authorization 헤더 안에 refresh_token을 넣어야 합니다.
+### 확인해야 할 사항
+refresh api는 Authorization 헤더 안에 refresh_token을 넣어야 합니다.
